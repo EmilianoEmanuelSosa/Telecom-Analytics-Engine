@@ -2,9 +2,6 @@
 <img src ="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png">
 <p>
 
-<h1 align='center'>
- <b>PROYECTO INDIVIDUAL Nº2</b>
-</h1>
  
 # <h1 align="center">**`Telecomunicaciones`**</h1>
 
