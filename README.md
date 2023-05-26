@@ -35,7 +35,7 @@ Con el fin de monitorear la eficacia de los objetivos de la empresa, se le pide 
 
 *Nota: En la sección de material de apoyo se puede encontrar más información sobre los KPIs.*
 
-## **Propuesta de trabajo -requerimientos de aprobación-**
+## **Propuesta de trabajo**
 
 `Análisis Exploratorio de los datos` (_Exploratory Data Analysis = EDA_)
 
@@ -94,22 +94,3 @@ Serás evaluado en dos grandes áreas, ambas con igual peso entre si: `Tech` y `
 - [Define your KPIs](https://medium.com/swlh/define-your-kpis-1a2072f1435)
 - [Como ejecutar scripts en power BI](https://learn.microsoft.com/es-es/power-bi/connect-data/desktop-python-scripts)
 
-
-
-## ***Recomendaciones finales***
-
-¡No deben mostrar nada de código en la exposición!
-
-Recordamos que sean puntuales y prueben el correcto funcionamiento de las herramientas empleadas antes de ingresar a la meet.
-
-La **DEMO**, donde defenderán el proyecto, se realizará el día jueves o viernes. Deben estar atentos a su *calendar* para ver qué día y horario les corresponde. 
-
-Tendrá una duración total máxima de 30 minutos, de los cuales sólo 10 minutos serán para su presentación.  Es importante que sepan **gestionar bien su tiempo** y tengan un speech ya preparado de 10 minutos, ya que el tiempo restante será dedicado a la corrección y feedback por parte del Henry Mentor.
-
-
-## Disclaimer
-De parte del equipo de Henry se quiere aclarar y remarcar que los fines de los proyectos propuestos son exclusivamente pedagógicos, con el objetivo de realizar proyectos que simulan un entorno laboral, en el cual se trabajan diversas temáticas ajustadas a la realidad. No reflejan necesariamente la filosofía y valores de la organización. Además, Henry no alienta ni tampoco recomienda a los alumnos y/o cualquier persona leyendo los repositorios (y entregas de proyectos) que tomen acciones en base a los datos que pudieran o no haber recabado. Toda la información expuesta y resultados obtenidos en los proyectos nunca deben ser tomados en cuenta para la toma real de decisiones (especialmente en la temática de finanzas, salud, política, etc.).
-  
-<p align='center'>
-<img src ="https://media.giphy.com/media/BpGWitbFZflfSUYuZ9/giphy.gif" height=250>
-<p>
