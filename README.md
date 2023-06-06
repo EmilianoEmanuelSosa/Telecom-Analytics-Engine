@@ -1,96 +1,31 @@
-<p align='center'>
-<img src ="https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png">
-<p>
+#Desvelando el Potencial Económico del Sector de Telecomunicaciones en Argentina: Un Enfoque Basado en Datos y Modelos Predictivos
+Este mini proyecto se basó en la plantilla [ Telecom-Analytics-Engine](http://Análisis del Sector de Telecomunicaciones desde una Perspectiva Económica 
 
- 
-# <h1 align="center">**`Telecomunicaciones`**</h1>
+![](https://th.bing.com/th/id/OPAN.A27AF57F1047DEDFB68E728126A0A974?w=388&h=180&c=8&rs=1&pid=Attractions)
 
-¡Bienvenidos al último proyecto individual de la etapa de labs! En esta ocasión, deberán hacer un trabajo situándose en el rol de un ***Data Analyst***.
-<p align='center'>
-<img src = 'https://newses.cgtn.com/n/BfJIA-CAA-HAA/BceGDAA.jpg' height = 200>
-<p>
+### Data Engineer
+En el proyecto, realizamos inicialmente tareas de extracción, limpieza y carga de datos (ETL) para generar una estructura normalizada de los datos. Evaluamos los archivos CSV relevantes para el posterior análisis macroeconómico del sector de telecomunicaciones en Argentina.
 
+![](https://th.bing.com/th/id/OIP.zr1PnyK7qD92wjhEjFaf3QHaFn?w=225&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)
 
-## **Descripción del problema -contexto y rol a desarrollar-**
+### Data Analytics
+Posteriormente, llevamos a cabo un estudio de los datos existentes para evaluar métricas que pudieran utilizarse en la generación de indicadores clave de rendimiento (KPIs). Estos KPIs fueron utilizados para crear un panel de control utilizando Power BI.
 
+![](https://th.bing.com/th/id/OIP.HWnSvyeJFrkZXk27SOh-BwHaFj?w=250&h=174&c=7&r=0&o=5&dpr=1.3&pid=1.7)
 
-### **Contexto**
+### Data Scientist
+Además, desarrollamos modelos de regresión lineal basados en las bibliotecas de machine learning de SciPy y scikit-learn para generar predicciones relacionadas con los KPIs. Estas predicciones nos permitieron entender qué esperar en función de los datos existentes en los diferentes archivos CSV y cumplir con los objetivos establecidos en el proyecto. También generamos visualizaciones utilizando la biblioteca Matplotlib de Python.
+![](https://th.bing.com/th/id/OIP.moAjgBGoh0T8G7VgdJOYSgHaDL?pid=ImgDet&rs=1)
 
-Las telecomunicaciones se refieren a la transmisión de información a través de medios electrónicos, como la telefonía, la televisión, la radio y, más recientemente, el internet. Estos medios de comunicación permiten la transmisión de información entre personas, organizaciones y dispositivos a largas distancias.
+## Conclusiones Finales del Estudio Estadístico
+Realizamos el análisis de 13 archivos CSV, de los cuales utilizamos 4 para generar los resultados relacionados con el estudio y el comportamiento económico del sector de telecomunicaciones.
 
-El internet, por su parte, es una red global de computadoras interconectadas que permite el intercambio de información en tiempo real. Desde su creación, ha tenido un impacto significativo en la vida de las personas, transformando la manera en que nos comunicamos, trabajamos, aprendemos y nos entretenemos.
+Obtuvimos dos datos basados en el promedio de velocidad máxima por provincia. Considerando los datos a partir de 2017, se observó una velocidad promedio de 40 Mbps. Sin embargo, al ausentar datos anteriores a la pandemia de COVID-19, se observó un aumento del 10% a 50 Mbps, lo cual indica un crecimiento del sector relacionado con ella. Además, considerando estos últimos datos, las provincias con la mayor velocidad de internet fueron Ciudad Capital, Córdoba, La Rioja, Chaco y Buenos Aires.
 
-La industria de las telecomunicaciones ha jugado un papel vital en nuestra sociedad, facilitando la información a escala internacional y permitiendo la comunicación continua incluso en medio de una pandemia mundial. La transferencia de datos y comunicación se realiza, en su mayoría, a través de internet, líneas telefónicas fijas, telefonía móvil y en casi cualquier lugar del mundo. 
+Realizamos también un análisis de la velocidad de descarga promedio en megabytes y observamos que las provincias con la mayor tasa de descarga fueron Buenos Aires, Capital Federal, Córdoba y Santa Fe. Sin embargo, es importante destacar que esto no está necesariamente relacionado con temas de infraestructura, ya que al evaluar la infraestructura asociada al sector de telecomunicaciones por cada 100 hogares por provincia, se observó que Capital Federal continúa liderando, seguida por Tierra del Fuego, La Pampa, Córdoba, Buenos Aires y Santa Fe, con cambios mínimos en su tasa porcentual. Esto indica que el sector de telecomunicaciones cuenta con una amplia cantidad de infraestructura que no está siendo debidamente utilizada por el sector.
 
-En comparación con la media mundial, Argentina está a la vanguardia en el desarrollo de las telecomunicaciones, teniendo para el 2020 un total de [62,12 millones de conexiones](https://www.datosmundial.com/america/argentina/telecomunicacion.php). 
+Además, observamos que las tecnologías más utilizadas para el acceso a internet fueron 4G, wireless, 3G, fibra óptica, telefonía fija y ADSL.
 
- 
-### **Rol a desarrollar**
+En cuanto a los KPIs y cumpliendo con los objetivos del proyecto, se espera un crecimiento del 2% en la suma de accesos por cada 100 hogares, basado en la solicitud inicial. Sin embargo, utilizando modelos de aprendizaje automático basados en la biblioteca scikit-learn (sklearn.linear_model), realizamos estimaciones del crecimiento de los accesos a internet por cada 100 hogares. Según estas estimaciones, se proyecta un incremento de 50 nuevos accesos por cada 100 hogares para el cuarto trimestre de 2022. Además, desde una perspectiva de ganancias, se realizó la búsqueda de un KPI en el cual pudimos estimar, a través de modelos de regresión lineal basados en machine learning, que se espera un crecimiento del 27% en el cuarto trimestre de 2022 y un 24% de crecimiento en ganancias para el 2023.
 
-En este contexto, una empresa prestadora de servicios de telecomunicaciones le encarga a usted la realización de un **análisis** completo que permita reconocer el comportamiento de este sector a nivel nacional. Considere que la principal actividad de la empresa es brindar **acceso a internet**, pero también es importante considerar el comportamiento asociado al resto de los servicios de comunicación, con el fin de orientar a la empresa en brindar una buena calidad de sus servicios, identificar oportunidades de crecimiento y poder plantear soluciones personalizadas a sus posibles clientes.
-
-Con el fin de monitorear la eficacia de los objetivos de la empresa, se le pide **visualizar** en un dashboard el siguiente KPI y **establecer 3 KPIs adicionales** producto de su análisis:
-
-+ Aumentar en un 2% el acceso al servicio de internet para el próximo trimestre, cada 100 hogares, por provincia. [(Datos)](https://www.google.com/url?q=https://datosabiertos.enacom.gob.ar/visualizations/32226/penetracion-de-internet-fijo-accesos-por-cada-100-hogares/&sa=D&source=docs&ust=1671204570423891&usg=AOvVaw0YwFIM-MNjsy094L_FOFM3)
-
-*Nota: En la sección de material de apoyo se puede encontrar más información sobre los KPIs.*
-
-## **Propuesta de trabajo**
-
-`Análisis Exploratorio de los datos` (_Exploratory Data Analysis = EDA_)
-
-El reporte debe incluir un resumen de estadísticas descriptivas de los datasets, análisis univariados (por ejemplo, distribución de variables numéricas), análisis bivariados (correlación entre variables numéricas y/o categóricas) y **cualquier análisis que le ayude al mejor entendimiento de los datos** (encontrar patrones, outliers y/o anomalías, entre otros). El reporte debe presentarse en un notebook (_.ipynb_) con adecuado uso de markdowns y comentarios.
-  
-`Dashboard`
-
-Debe ser funcional y coherente con el análisis y la historia que vayan a relatar. **El archivo debe estar en su repositorio** (.pbix, .py o el que aplique).
-
-`KPIs`
-
-Se deben sugerir 3 KPIs y deben aparecer en el dashboard. Tenga en cuenta que deben tener relación con la historia que está contando. Asimismo, se espera que en la presentación explique el análisis y la funcionalidad de los KPIs sugeridos.
-
-:warning: `Análisis` :warning:
-
-No se calificará solamente la producción de gráficos con datos (dashboard), sino también los **análisis y conclusiones** que encuentren en ellos.
-  
-`Repositorio de GitHub`
-
-El repositorio debe contener un README principal donde se presente de forma general **su proyecto**. Presentar como propio el readme proporcionado por Henry será considerado como **insuficiente** para cumplir con este requerimiento.
-  
-**PLUS**
-<br>
-<sub> Nota: la realización de los siguientes ítems no es intercambiable con los requerimientos mínimos establecidos en la sección anterior "Propuesta de trabajo". Empiece con esta sección una vez haya cumplido con los requerimientos mínimos, a modo de desafiarse a usted mismo.</sub>
-
-- Redactar un reporte de análisis con base en sus dashboards e incluirlo en el readme de sus repositorios. También debe incluir el análisis y la funcionalidad de los KPIs sugeridos.
-- Ejecutar scripts de python en la herramienta de visualización de datos escogida.
-- Extraer los datos desde la API del sitio (no descarga de csv).
-- Cruce de datos con datasets complementarios.
-
-## Fuente de datos:
-**Obligatorio:**
-
-- [Dataset principal](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/) -se sugiere el uso de la API-
-
-**Complementario:**
-- Cualquier dataset de búsqueda propia que complemente y mejore el análisis.
- - [Datasets](https://datosabiertos.enacom.gob.ar/home)
-
-
-
-<h1>Lo que tendremos en cuenta a la hora de evaluar:</h1>
-
-Serás evaluado en dos grandes áreas, ambas con igual peso entre si: `Tech` y `Soft`!
-
-**Las habilidades técnicas (Tech)** para este proyecto de analytics incluyen el tipo de herramientas utilizadas para la realización de dashboard (herramientas de **Business Intelligence** y/o DataViz), elección de **gráficas pertinentes** para la representación del dato y un dashboard **efectivo** (organización, uso de filtros y criterios estéticos y de diagramación dónde se ubican los filtros y visualizaciones, títulos adecuados, estandarización de idiomas, entre otros).
-
-**Las habilidades blandas (Soft)** para este proyecto tendrán en cuenta la **puntualidad y preparación para la demo**, su **comunicación oral y storytelling**, la forma en que cuentas tu historia (¿los datos duros que presentas son **útiles** para tu audiencia?) y finalmente (esto es MUY importante) :warning:**EL ANÁLISIS**:warning: (¿brindas un contexto?, ¿haces comparaciones con otros datos?, ¿tienes conclusiones interesantes y realizas análisis no triviales?).
-
-<sub>**Spoiler**: Te vamos a dar feedback y también vamos a evaluar tu capacidad de recepción a este :stuck_out_tongue: </sub>
-
-
-## Material de apoyo
-- ¡Todos los Workshops de esta etapa serán de gran utilidad para tener un proyecto exitoso!
-- [Como hacer un EDA](https://medium.com/nerd-for-tech/how-to-do-some-basic-eda-a-guide-for-dummies-d76d9a82242c)
-- [Define your KPIs](https://medium.com/swlh/define-your-kpis-1a2072f1435)
-- [Como ejecutar scripts en power BI](https://learn.microsoft.com/es-es/power-bi/connect-data/desktop-python-scripts)
-
+Por otro lado, se realizó un análisis macroeconómico del comportamiento de las ganancias del sector de telecomunicaciones en relación con el comportamiento del PBI per cápita en Argentina. Para ello, evaluamos el crecimiento porcentual de ambos y utilizamos un modelo de correlación de Pearson para analizar si existe alguna relación entre los comportamientos. Sin embargo, los resultados mostraron una relación negativa o inversa, lo que nos llevó a realizar un modelo de regresión. El resultado obtenido fue un modelo con un alto error cuadrático y un coeficiente de determinación (R-squared) cercano a cero. Por lo tanto, se considera que deben evaluarse más factores para determinar la relación entre el comportamiento del producto interno bruto y las ganancias porcentuales del sector de telecomunicaciones.
